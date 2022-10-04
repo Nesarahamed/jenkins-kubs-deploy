@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "Nesarahamed/nodeapp"
+    dockerimagename = "nesarahamed/nodeapp"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Nesarahamed/nodeapp_test.git'
+        git 'https://github.com/nesarahamed/nodeapp_test.git'
       }
     }
 
