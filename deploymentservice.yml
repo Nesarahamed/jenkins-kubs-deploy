@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: Nesarahamed/nodeapp:latest
+        image: nesarahamed/nodeapp:latest
         ports:
         - containerPort: 3000
         
